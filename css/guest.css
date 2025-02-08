@@ -50,7 +50,7 @@ html[data-bs-theme="light"] .btn-float {
     height: 100%;
     z-index: 1056;
     overflow: hidden;
-    background: url('./assets/images/bg.webp') no-repeat center center;
+    background: url('https://postimg.cc/9zwH4th9') no-repeat center center;
     background-size: cover;
 }
 

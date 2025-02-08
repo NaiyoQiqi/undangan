@@ -42,17 +42,7 @@ html[data-bs-theme="light"] .btn-float {
     backdrop-filter: blur(0.625rem);
 }
 
-/* Background Video */
-#background-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* Supaya video ada di belakang elemen lainnya */
-}
-
+/* Ganti Video dengan Gambar */
 .loading-page {
     position: fixed;
     inset: 0;
@@ -60,6 +50,8 @@ html[data-bs-theme="light"] .btn-float {
     height: 100%;
     z-index: 1056;
     overflow: hidden;
+    background: url('./assets/images/bg.webp') no-repeat center center;
+    background-size: cover;
 }
 
 /* Menghapus background putih/hitam */
